@@ -1,0 +1,39 @@
+.home {
+  text-align: center;
+  padding: 1rem;
+}
+
+button {
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838; /* Change hover color if needed */
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 1;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+.column img:hover {
+  transform: scale(1.2); /* Zoom in on hover */
+}

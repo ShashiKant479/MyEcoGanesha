@@ -1,0 +1,12 @@
+<div class="home">
+  <p>वक्रतुण्ड महाकाय सूर्यकोटि समप्रभः।
+    निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥</p>
+  <p>Vakratunda Mahakaya Suryakoti Samaprabha |
+    Nirvighnam Kuru Me Deva Sarvakaryeshu Sarvada ||</p>
+  
+  <div class="row">
+    <div class="column" *ngFor="let i of [0, 1, 2, 3].slice(0, columns)">
+      <img *ngFor="let img of images" [src]="img" style="width:100%">
+    </div>
+  </div>
+</div>

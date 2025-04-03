@@ -1,0 +1,36 @@
+:host {
+    display: block;
+    background-color: rgb(240, 248, 255); /* Light pastel blue (AliceBlue) */
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif; /* Modern and clean font */
+    font-size: 16px; /* Base font size for the application */
+    line-height: 1.6; /* Improve readability with proper line height */
+}
+
+nav {
+    background: linear-gradient(90deg, rgb(240, 248, 255),rgb(25, 42, 86)); /* Gradient from dark navy blue to light pastel blue */
+    color: rgb(248, 248, 248); /* Light yellow for the text */
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 18px; /* Slightly larger font size for navigation links */
+}
+
+nav a {
+    color: rgb(255, 255, 255);/* Light yellow for the links */
+    text-decoration: none; /* Remove underline from links */
+    margin-left: 1rem; /* Add small spacing between links */
+    font-weight: 600; /* Semi-bold for better visibility */
+}
+
+nav a:first-child {
+    margin-left: auto; /* Push the first link to the right */
+}
+
+nav a:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+    color: rgb(230, 213, 169); /* Change link color to a contrasting light beige on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
